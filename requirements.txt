@@ -1,0 +1,21 @@
+# Core LangChain
+langchain>=0.1.0
+
+# Community modules for embeddings and LLMs
+langchain-community>=0.0.30
+
+# HuggingFace sentence embeddings
+sentence-transformers>=2.2.2
+
+# FAISS vector store
+faiss-cpu>=1.7.4
+
+# Ollama LLM interface
+ollama>=0.0.15
+
+# LangGraph workflow
+langgraph>=0.0.11
+
+# Optional, but recommended for type hints & dataclasses
+typing-extensions>=4.7.1
+dataclasses>=0.6
