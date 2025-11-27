@@ -3,7 +3,7 @@ from langchain_community.llms import Ollama
 from langchain_community.vectorstores import FAISS
 from langchain.chains import RetrievalQA
 
-# -- Agents --
+# --- Agents ---
 class ClassifierAgent:
     def __init__(self, llm, prompt_template: str):
         self.llm = llm
